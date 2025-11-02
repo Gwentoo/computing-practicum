@@ -473,8 +473,8 @@ def generate_test_cases(n):
 def th_number(n):
     return 2/3 * n**3 + 3/2 * n**2 - 7/6*n
 
-## ТЕСТЫ
 
+## ТЕСТЫ
 def task7_3(n):
     A_good, A_non_sym, A_sym_bad = generate_test_cases(n)
     print("ТЕСТ МЕТОДА ХОЛЕЦКОГО\n")
